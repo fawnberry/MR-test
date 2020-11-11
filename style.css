@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	
+}
+
+/* Global */
+.container{
+	width:80%;
+	margin: auto;
+	overflow:hidden;
+}
+
+/* Header **/
+header{
+	background:#F6F6F7;
+	color:#222222;
+	padding-top: 30px;
+	min-height: 70px;
+	
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+	
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px
+}
+
+header #items{
+	float: left;
+}
+
+header nav{
+	float: right;
+	color: #F6F6F7;
+	margin-top: 10px;
+}
+
+/* Product Content */
+
+#products {
+	min-height: 900px;
+	text-align: left;
+	
+}
+
+#products .product{
+	float: left;
+	width: 45%;
+	padding: 10px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+#products h1{
+	margin-top: 100px;
+	margin-bottom: 10px;
+	color: #222222;
+}
+
+#products p{
+	color: #888888;
+	
+}
+
+#products .button{
+	color: #888888;
+	background-color: white;
+	border: 1px solid #888888;
+	padding: 15px 15px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+#products .button2{
+	padding: 10px 32px 10px;
+	background-color: white;
+	border: 2px solid #222222;
+	font-weight: bold;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+#products .product img{
+	width:400px;
+}
+
+#products h5{
+	color: #888888;
+	content: "*";
+	display: inline;
+	font-weight: bold;
+}
